@@ -17,14 +17,9 @@ const getCountyInfo = countryName => {
                     bordersList.innerHTML=`<li>${border}</li>`
                 })
 
-            bordersList.addEventListener('click', ()=>{
-                
             })
-            })
-
-        
         })
-        .catch(err => console.error(err))
+        
     
 }
 
